@@ -22,7 +22,7 @@ The design pattern chosen for this project was the Medallion Architecture.
 
 #### Specifications
 
-- **Data Sources**: Import data from ERP and CRM source systems provided as CSV files.
+- **Data Sources**: Bulked insert data from ERP and CRM source systems provided as CSV files.
 - **Data Quality**: Clean data, and resolve any issues.
 - **Integration**: Combine both source systems for easier consumption.
 - **Scope**: Focus only on the latest dataset, without historization.
